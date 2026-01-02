@@ -6,7 +6,7 @@
 
       <style>
          body {
-            font-family: Arial, sans-serif;
+            font-family: Georgia, "Times New Roman", Times, serif;
             background: linear-gradient(135deg, #667eea, #764ba2);
             height: 100vh;
             margin: 0;
@@ -75,8 +75,9 @@
 
    <body>
       <div class="card">
-         <h2>Iris Classifier 🌸</h2>
-
+         <h2>Decision Trees using Iris Dataset 🌸</h2>
+         <h4>Biruk Dereje</h4>
+         <h4>UGR/6190/15</h4>
          <form method="post">
             {% csrf_token %}
             <input name="sepal_length" placeholder="Sepal Length" required />
@@ -91,7 +92,7 @@
          <div class="result">Prediction: {{ prediction }}</div>
          {% endif %}
 
-         <div class="footer">Decision Tree • Django • ML Demo</div>
+         <div class="footer">Decision Tree Demo</div>
       </div>
    </body>
 </html>
